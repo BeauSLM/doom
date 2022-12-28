@@ -50,3 +50,6 @@
 ;(unpin! t)
 
 (package! lsp-tailwindcss :recipe (:host github :repo "merrickluo/lsp-tailwindcss"))
+
+(package! wgsl-mode :recipe (:host github :repo "acowley/wgsl-mode"))
+(package! glsl-mode :recipe (:host github :repo "jimhourihan/glsl-mode"))
