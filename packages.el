@@ -51,5 +51,9 @@
 
 (package! lsp-tailwindcss :recipe (:host github :repo "merrickluo/lsp-tailwindcss"))
 
+; astro
+(unpin! web-mode)
+(package! lsp-mode :pin "b18be2049c") ; last commit that passes all CI checks
+
 (package! wgsl-mode :recipe (:host github :repo "acowley/wgsl-mode"))
 (package! glsl-mode :recipe (:host github :repo "jimhourihan/glsl-mode"))

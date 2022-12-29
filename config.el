@@ -81,3 +81,5 @@
 (use-package lsp-tailwindcss
   :init
   (setq lsp-tailwindcss-add-on-mode t))
+
+(add-to-list 'auto-mode-alist '("\\.astro\\'" . web-mode))
