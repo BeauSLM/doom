@@ -83,3 +83,5 @@
   (setq lsp-tailwindcss-add-on-mode t))
 
 (add-to-list 'auto-mode-alist '("\\.astro\\'" . web-mode))
+
+(setq +tree-sitter-hl-enabled-modes t)
