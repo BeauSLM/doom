@@ -54,5 +54,10 @@
 ; astro
 (unpin! web-mode lsp-mode)
 
+; shader syntax-highlighting
 (package! wgsl-mode :recipe (:host github :repo "acowley/wgsl-mode"))
 (package! glsl-mode :recipe (:host github :repo "jimhourihan/glsl-mode"))
+
+; copilot
+(package! copilot
+  :recipe (:host github :repo "zerolfx/copilot.el" :files ("*.el" "dist")))
