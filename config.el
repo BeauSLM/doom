@@ -95,3 +95,6 @@
          :map copilot-completion-map
          ("<tab>" . 'copilot-accept-completion)
          ("TAB" . 'copilot-accept-completion)))
+
+;; no passive completion
+(setq company-idle-delay nil)
