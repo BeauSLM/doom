@@ -98,3 +98,5 @@
 
 ;; no passive completion
 (setq company-idle-delay nil)
+
+(setq +latex-viewers '(zathura))
