@@ -100,3 +100,6 @@
 (setq company-idle-delay nil)
 
 (setq +latex-viewers '(zathura))
+
+;; forge api key
+(setq auth-sources '("~/.authinfo"))
