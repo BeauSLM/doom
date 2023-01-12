@@ -78,11 +78,9 @@
 ;; You can also try 'gd' (or 'C-c c d') to jump to their definition and see how
 ;; they are implemented.
 
-(use-package lsp-tailwindcss
-  :init
-  (setq lsp-tailwindcss-add-on-mode t))
+(setq lsp-tailwindcss-add-on-mode t)
 
-(add-to-list 'auto-mode-alist '("\\.astro\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.astro\\'" . web-mode) 'append)
 
 ; highlight everything with tree-sitter
 (setq +tree-sitter-hl-enabled-modes t)
