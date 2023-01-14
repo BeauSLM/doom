@@ -61,3 +61,5 @@
 ; copilot
 (package! copilot
   :recipe (:host github :repo "zerolfx/copilot.el" :files ("*.el" "dist")))
+
+(package! jai-mode :recipe (:host github :repo "krig/jai-mode"))
