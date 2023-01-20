@@ -101,3 +101,6 @@
 
 ;; forge api key
 (setq auth-sources '("~/.authinfo"))
+
+;; dap-cpptools
+(require 'dap-cpptools)
