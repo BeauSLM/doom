@@ -54,9 +54,8 @@
 ; astro
 (unpin! web-mode lsp-mode)
 
-; shader syntax-highlighting
+; wgsl shader syntax-highlighting
 (package! wgsl-mode :recipe (:host github :repo "acowley/wgsl-mode"))
-(package! glsl-mode :recipe (:host github :repo "jimhourihan/glsl-mode"))
 
 ; copilot
 (package! copilot
