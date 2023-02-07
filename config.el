@@ -101,6 +101,7 @@
 
 ;; forge api key
 (setq auth-sources '("~/.authinfo"))
+(setq forge-owned-accounts '(("BeauSLM" remote-name "fork")))
 
 ;; dap-cpptools
 (require 'dap-cpptools)
