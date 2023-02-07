@@ -91,8 +91,7 @@
   :bind (("C-TAB" . 'copilot-accept-completion-by-word)
          ("C-<tab>" . 'copilot-accept-completion-by-word)
          :map copilot-completion-map
-         ("<tab>" . 'copilot-accept-completion)
-         ("TAB" . 'copilot-accept-completion)))
+         ("C-c C-c" . 'copilot-accept-completion)))
 
 ;; no passive completion
 (setq company-idle-delay nil)
