@@ -103,4 +103,5 @@
 (setq forge-owned-accounts '(("BeauSLM" remote-name "fork")))
 
 ;; dap-cpptools
-(require 'dap-cpptools)
+(after! dap-mode
+  ( require 'dap-cpptools ))
